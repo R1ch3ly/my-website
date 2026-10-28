@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home | Rixblaq</title>
+    <meta
+      name="description"
+      content="Portfolio website for a programmer and graphics designer."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav container">
+        <div class="brand">
+          <span class="brand-mark">R</span>
+          <span>Rixblaq Lab</span>
+        </div>
+        <div class="nav-links">
+          <a href="home.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="services.html">Services</a>
+          <a href="projects.html">Projects</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <a class="nav-btn" href="https://wa.me/2348167339413?text=Hi%20Richard%2C%20I%20saw%20your%20portfolio%20and%20I%E2%80%99d%20like%20to%20discuss%20a%20project.%20Are%20you%20available%3F" target="_blank" rel="noreferrer">Hire me</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="top-slider container" aria-label="Featured work slider">
+        <div class="slider-track">
+          <article class="slide active" style="background-image: url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1400&q=80');">
+            <div class="slide-overlay"></div>
+            <div class="slide-content">
+              <p class="eyebrow">Creative Studio</p>
+              <h2>Designing experiences people remember.</h2>
+            </div>
+          </article>
+
+          <article class="slide" style="background-image: url('https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1400&q=80');">
+            <div class="slide-overlay"></div>
+            <div class="slide-content">
+              <p class="eyebrow">Web Products</p>
+              <h2>Modern interfaces built to perform.</h2>
+            </div>
+          </article>
+
+          <article class="slide" style="background-image: url('https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=80');">
+            <div class="slide-overlay"></div>
+            <div class="slide-content">
+              <p class="eyebrow">Brand Identity</p>
+              <h2>Bold visuals that turn ideas into impact.</h2>
+            </div>
+          </article>
+        </div>
+
+        <div class="slider-controls">
+          <button class="slider-btn prev" type="button" aria-label="Previous slide">&#8249;</button>
+          <div class="slider-dots" aria-label="Slide navigation">
+            <button class="dot active" type="button" aria-label="Go to slide 1"></button>
+            <button class="dot" type="button" aria-label="Go to slide 2"></button>
+            <button class="dot" type="button" aria-label="Go to slide 3"></button>
+          </div>
+          <button class="slider-btn next" type="button" aria-label="Next slide">&#8250;</button>
+        </div>
+      </section>
+
+      <section class="hero container">
+        <div class="hero-copy">
+          <p class="eyebrow">Programmer • Graphics Designer</p>
+          <h1>Designing bold ideas into digital experiences.</h1>
+          <p class="lead">
+            <strong class="intro-highlight">I am Richard Njoku a.k.a Rixblaq</strong>, Programmer/Graphics Designer. I build modern interfaces, visual systems, and creative digital solutions
+            that turn complex ideas into memorable experiences.
+          </p>
+          <div class="cta-row">
+            <a class="primary-btn" href="https://wa.me/2348167339413?text=Hi%20Richard%2C%20I%20saw%20your%20portfolio%20and%20I%E2%80%99d%20like%20to%20discuss%20a%20project.%20Are%20you%20available%3F" target="_blank" rel="noreferrer">Start a Project</a>
+            <a class="secondary-btn" href="about.html">About Me</a>
+          </div>
+          <div class="hero-stats">
+            <div>
+              <strong>6+</strong>
+              <span>Months creating</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-label="Designer portfolio graphic">
+          <div class="code-laptop" aria-hidden="true">
+            <div class="laptop-screen">
+              <div class="code-bar"><span></span><span></span><span></span></div>
+              <code>
+                <span>&lt;section class="hero"&gt;</span>
+                <span>  <b>const</b> ideas = create();</span>
+                <span>  design.render(ideas);</span>
+                <span>&lt;/section&gt;</span>
+              </code>
+            </div>
+            <div class="laptop-base"></div>
+          </div>
+          <div class="portrait-card">
+            <img class="profile-image" src="images/Rixblaq.jpg" alt="Rixblaq in a navy suit">
+          </div>
+          <div class="hero-gallery" aria-label="Essential work images">
+            <figure class="hero-gallery-card">
+              <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=700&q=80" alt="Web interface design on a laptop">
+              <figcaption>Web design</figcaption>
+            </figure>
+            <figure class="hero-gallery-card">
+              <img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=700&q=80" alt="Creative studio workspace">
+              <figcaption>Creative direction</figcaption>
+            </figure>
+            <figure class="hero-gallery-card">
+              <img src="https://images.unsplash.com/photo-1558655146-d09347e92766?auto=format&fit=crop&w=700&q=80" alt="Brand design sketches and materials">
+              <figcaption>Brand identity</figcaption>
+            </figure>
+          </div>
+          <div class="floating-tag tag-top">UI/UX</div>
+          <div class="floating-tag tag-bottom">Brand Design</div>
+        </div>
+      </section>
+
+      <section class="about container">
+        <div class="section-heading">
+          <p class="eyebrow">About</p>
+          <h2>Creative problem solver with a coder’s mindset.</h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-visual">
+            <div class="panel panel-one"></div>
+            <div class="panel panel-two"></div>
+            <div class="panel panel-three"></div>
+          </div>
+          <div class="about-copy">
+            <p>
+              I blend development and visual thinking to craft digital products that are
+              practical, engaging, and easy to use. From interface design to front-end
+              implementation, I focus on clarity, style, and performance.
+            </p>
+            <p>
+              My work helps startups and businesses stand out through clean UX,
+              memorable brand visuals, and responsive web experiences built with care.
+            </p>
+            <ul class="check-list">
+              <li>Responsive web design</li>
+              <li>Brand identity & visual systems</li>
+              <li>Front-end development</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="services">
+        <div class="container">
+          <div class="section-heading center">
+            <p class="eyebrow">Services</p>
+            <h2>What I do best.</h2>
+          </div>
+          <div class="service-grid">
+            <article class="service-card">
+              <div class="icon">01</div>
+              <h3>Web Development</h3>
+              <p>
+                Building responsive, scalable websites and web apps with modern code,
+                smooth interactions, and strong UX foundations.
+              </p>
+            </article>
+            <article class="service-card">
+              <div class="icon">02</div>
+              <h3>Graphic Design</h3>
+              <p>
+                Creating bold branding, social visuals, and polished digital art that
+                communicate your message clearly.
+              </p>
+            </article>
+            <article class="service-card">
+              <div class="icon">03</div>
+              <h3>UI/UX Design</h3>
+              <p>
+                Designing intuitive user journeys, visual systems, and product screens
+                that feel fluid and premium.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="projects container">
+        <div class="section-heading">
+          <p class="eyebrow">Projects</p>
+          <h2>Selected work.</h2>
+        </div>
+        <div class="project-grid">
+          <article class="project-card card-four">
+            <div class="project-preview live-preview">
+              <iframe src="Rixblaq_Cuisine/rixblaq_cuisine/index.html" title="Scrollable preview of Rixblaq Cuisine" scrolling="yes"></iframe>
+            </div>
+            <div class="project-info">
+              <span>Restaurant Website</span>
+              <h3>Rixblaq Cuisine</h3>
+              <p>Elegant food and hospitality website designed to showcase a memorable dining experience.</p>
+              <div class="project-tags">
+                <span>Food</span>
+                <span>Brand</span>
+                <span>Menu</span>
+              </div>
+              <a class="project-link" href="Rixblaq_Cuisine/rixblaq_cuisine/index.html" target="_blank" rel="noreferrer">View site</a>
+            </div>
+          </article>
+
+          <article class="project-card card-five">
+            <div class="project-preview live-preview">
+              <iframe src="Flex_Beni_website/flex_beni_website/index.html" title="Scrollable preview of Flex Beni" scrolling="yes"></iframe>
+            </div>
+            <div class="project-info">
+              <span>Business Website</span>
+              <h3>Flex Beni</h3>
+              <p>Clean business website built to present a strong brand and make key services easy to explore.</p>
+              <div class="project-tags">
+                <span>Business</span>
+                <span>UI</span>
+                <span>Responsive</span>
+              </div>
+              <a class="project-link" href="Flex_Beni_website/flex_beni_website/index.html" target="_blank" rel="noreferrer">View site</a>
+            </div>
+          </article>
+
+          <article class="project-card card-six">
+            <div class="project-preview live-preview">
+              <iframe src="Fashion%20Design%20web/index.html" title="Scrollable preview of Rixblaq Atelier" scrolling="yes"></iframe>
+            </div>
+            <div class="project-info">
+              <span>Fashion Website</span>
+              <h3>Rixblaq Atelier</h3>
+              <p>Visual fashion portfolio created to highlight original designs, collections, and creative direction.</p>
+              <div class="project-tags">
+                <span>Fashion</span>
+                <span>Portfolio</span>
+                <span>Creative</span>
+              </div>
+              <a class="project-link" href="Fashion%20Design%20web/index.html" target="_blank" rel="noreferrer">View site</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="cta-banner container">
+        <div>
+          <p class="eyebrow">Let’s create something meaningful</p>
+          <h2>Need a designer who can build as well as imagine?</h2>
+        </div>
+        <a class="primary-btn" href="https://wa.me/2348167339413?text=Hi%20Richard%2C%20I%20saw%20your%20portfolio%20and%20I%E2%80%99d%20like%20to%20discuss%20a%20project.%20Are%20you%20available%3F" target="_blank" rel="noreferrer">Start a Project</a>
+      </section>
+    </main>
+
+     <hr>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+          <div class="footer-brand">
+          <div class="brand">
+            <span class="brand-mark">R</span>
+              <span>Rixblaq Lab</span>
+          </div>
+          <p>Creative developer and visual designer crafting digital experiences.</p>
+        </div>
+
+          <nav class="footer-nav" aria-label="Footer navigation">
+            <h3>Navigation</h3>
+            <div class="footer-nav-links">
+              <a href="home.html">Home</a>
+              <a href="about.html">About</a>
+              <a href="services.html">Services</a>
+              <a href="projects.html">Projects</a>
+              <a href="contact.html">Contact</a>
+            </div>
+          </nav>
+
+          <div class="footer-contact">
+            <h3>Contact</h3>
+            <div class="contact-links">
+              <a href="tel:+2348167339413">08167339413</a>
+              <a href="mailto:richardnj20118@gmail.com">richardnj20118@gmail.com</a>
+              <a class="social-link" href="https://wa.me/2348167339413?text=Hi%20Richard%2C%20I%20saw%20your%20portfolio%20and%20I%E2%80%99d%20like%20to%20discuss%20a%20project.%20Are%20you%20available%3F" target="_blank" rel="noreferrer"><span class="social-icon whatsapp-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M20 11.5a8 8 0 0 1-11.7 7.1L4 20l1.4-4.1A8 8 0 1 1 20 11.5Z"></path><path d="M8.4 8.5c.3-.4.7-.4 1-.1l1 1c.3.3.3.7.1 1l-.5.7c.5 1 1.3 1.8 2.3 2.3l.7-.5c.3-.2.7-.2 1 .1l1 1c.3.3.3.7-.1 1-.5.6-1.2.9-2 .7-2.7-.6-5.3-3.2-5.9-5.9-.2-.8.1-1.5.7-2Z"></path></svg></span>WhatsApp</a>
+              <a class="social-link" href="https://www.instagram.com/Rixblaq_Official" target="_blank" rel="noreferrer"><span class="social-icon instagram-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.5" cy="6.5" r="1" class="icon-dot"></circle></svg></span>Instagram: Rixblaq_Official</a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <div class="container">
+            <p>© 2026 Rixblaq Lab. All Rights Reserved.</p>
+          </div>
+        </div>
+      </footer>
+
+    <script>
+      const slides = Array.from(document.querySelectorAll('.slide'));
+      const dots = Array.from(document.querySelectorAll('.dot'));
+      const prevBtn = document.querySelector('.prev');
+      const nextBtn = document.querySelector('.next');
+      let currentSlide = 0;
+
+      function showSlide(index) {
+        currentSlide = (index + slides.length) % slides.length;
+
+        slides.forEach((slide, idx) => {
+          slide.classList.toggle('active', idx === currentSlide);
+        });
+
+        dots.forEach((dot, idx) => {
+          dot.classList.toggle('active', idx === currentSlide);
+        });
+      }
+
+      prevBtn.addEventListener('click', () => showSlide(currentSlide - 1));
+      nextBtn.addEventListener('click', () => showSlide(currentSlide + 1));
+
+      dots.forEach((dot, idx) => {
+        dot.addEventListener('click', () => showSlide(idx));
+      });
+
+      setInterval(() => showSlide(currentSlide + 1), 5000);
+    </script>
+  </body>
+</html>
